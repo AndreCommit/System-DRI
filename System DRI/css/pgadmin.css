@@ -1,0 +1,17 @@
+table, th {
+    border: 1px hidden;
+    margin: 0 auto;
+    padding: 25px; 
+    text-align: center;
+    width: 70%;
+    color: #302424;
+  }
+  
+  tr:hover {
+    background-color: rgb(27, 134, 180);
+  }
+  
+  td{
+    border-bottom: 1px solid;
+    padding: 10px;  
+  }

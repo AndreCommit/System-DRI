@@ -1,0 +1,200 @@
+
+header {
+  height: 60px;
+  background-color: #1b2936;
+  color: rgb(134, 71, 71);
+  text-align: center;
+  clear: both;
+  padding: 1px;
+  border-radius: 5px;
+  font-family: arial, helvetica, sans-serif;
+}
+body{
+font-family: arial, helvetica, sans-serif;
+font-size: 12px;
+background-color: #585d64;
+
+border-radius: 5px;
+}
+
+nav {
+  padding: 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  list-style: none;
+}
+header nav ul {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+header nav li {
+  margin-right: 15px;
+}
+header nav li a:hover {
+  background-color: #d8bebe;
+  color: rgb(44, 43, 43);
+}
+header a {
+  display: block;
+  color: rgb(226, 223, 223);
+  text-decoration: none;
+  padding: 5px;
+}
+.sidebar {
+  background-color: rgb(174, 180, 185);
+  height: 580px;
+  width: 350px;
+  float: left;
+  padding: 20px;
+  align-items: center;
+  margin-top: 0%;
+
+  box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+  backdrop-filter: blur( 1.5px );
+  -webkit-backdrop-filter: blur( 1.5px );
+  border: 1px solid rgba(160, 156, 156, 0.18);
+
+  }
+  .sidebar ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+    }
+    .sidebar li {
+      margin-bottom: 10px;
+    }
+    .sidebar a {
+      display: block;
+      color: black;
+      text-decoration: none;
+      padding: 10px;
+    }
+
+  .main-content {
+    font-size: 12px;
+    display: flex;
+    text-align: center;
+    flex-wrap: wrap;
+  }
+
+  .box {
+    width: calc(45% - 20px);
+    height: 550px;
+    margin: 30px;
+    text-align: center;
+    font-family: Roboto, sans-serif;
+    color: #d0dcf0;
+    -webkit-border-radius: 30px;
+    -webkit-border-top-right-radius: 10px;
+    -webkit-border-bottom-left-radius: 10px;
+    -moz-border-radius: 30px;
+    -moz-border-radius-topright: 10px;
+    -moz-border-radius-bottomleft: 10px;
+    border-radius: 30px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border: solid 2px;
+  }
+
+
+  .combo2 {
+    background: rgba(170, 100, 216, 0.25);
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 1.5px );
+    -webkit-backdrop-filter: blur( 1.5px );
+    border: 1px solid rgba(160, 156, 156, 0.18);
+  }
+
+  .combo3 {
+    background: rgba(13, 255, 45, 0.25);
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 1.5px );
+    -webkit-backdrop-filter: blur( 1.5px );
+    border: 1px solid rgba(160, 156, 156, 0.18);
+  }
+
+  .footer {
+    height: 55px;
+    background-color: #1b2936;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    clear: both;
+    padding: 10px;
+    border-radius: 5px;
+  }
+  input[type=button]{
+    margin: 10px 0;
+    width: 25%;
+    height: 25px;
+    cursor: pointer;
+    background: rgb(218, 33, 33);
+    color: white;
+    border: 0;
+    border-radius: 20px;
+    transition: 0.5s;
+    margin-left: 15px;
+    border: solid 1px;
+  }
+  input[type=submit]{
+    margin: 10px 0;
+    width: 25%;
+    height: 28px;
+    cursor: pointer;
+    background: rgb(218, 33, 33);
+    color: white;
+    border: 0;
+    border-radius: 20px;
+    transition: 0.5s;
+    margin-left: 15px;
+    border: solid 1px;
+  }
+  input{
+    transition: 150ms cubic-bezier(0.4,0,0.2,1);
+    border-radius: 7px;
+    border: solid 2px #424f64;
+    background: none;
+    padding: 4px;
+    font-size: 1rem;
+    color: rgb(13, 14, 14);
+  }
+  select {
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    background: url(../img/select-angle-down.png) no-repeat center right #FFF;
+    border: 1px solid #333;
+    font-size: 15px;
+    padding-right: 15px;
+    height: 25px;
+    border-radius: 3px;
+}
+  table, th {
+    border: 1px hidden;
+    width: 90%;
+    min-width: 15px;
+    margin: 0 auto;
+    padding: 20px; 
+    text-align: center;
+    width: 50%;
+  
+  }
+  
+  tr:hover {
+    background-color: rgb(59, 88, 100);
+  }
+  
+  td{
+    border-bottom: 1px solid;
+    padding: 2px;  
+  }
+h3 {
+  color: rgb(180, 34, 34);
+}
+
+  
+  

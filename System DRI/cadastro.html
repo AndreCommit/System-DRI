@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt=br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Crie sua conta.</title>
+
+    <!--CSS-->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/media.css">
+
+    <!--JS & jQuery-->
+    <script type="text/javascript" src="public/wyntech/js/script.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="container">
+        <div class="banner">
+            <img src="img/logoWT-1-300x75.png" alt="Wyntech">
+            <p style="color: #fff; font-weight: 400;">
+                Seja bem vindo ao sistema da Wyntech 
+                <br>Sistema de Gestão de chamados.
+                <br>
+                <br>Criado por André Wyntech, 2023.
+            </p>
+        </div>
+
+        <div class="box-login">
+            <h1>
+                Crie sua conta.
+            </h1>
+
+            <div class="box">
+                <form method="POST" action="cadastro.php">
+                    <h2>Faça o seu Cadastro agora.</h2>
+                    <br>
+                    <input type="text" name="login" id="login" placeholder="crie seu login:">
+                    <input type="password" name="senha" id="senha" placeholder="crie sua senha:">
+                    <input type="text" name="nome" id="nome" placeholder="Digite seu nome:">
+                    <br> <br>
+                <a href="login.html">
+                    <p>Voltar</p>
+                    <br>
+                </a>
+
+                <button>Cadastrar</button>
+                </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
